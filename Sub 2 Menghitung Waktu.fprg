@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-05 03:11:57 PM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjtDTElFTlQtMTsyMDIzLTEwLTA1OzAyOjQ4OjU2IFBNOzMyMDA="/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjtDTElFTlQtMTsyMDIzLTEwLTA1OzAzOjExOjU3IFBNOzE7MzMwMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="v" type="Integer" array="False" size=""/>
+            <declare name="waktu" type="Real" array="False" size=""/>
+            <declare name="srad" type="Real" array="False" size=""/>
+            <input variable="s"/>
+            <input variable="v"/>
+            <assign variable="srad" expression="s*(3.14/180)"/>
+            <assign variable="waktu" expression="(2* (v* srad))/10"/>
+            <output expression="waktu" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
